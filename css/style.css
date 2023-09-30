@@ -1,0 +1,394 @@
+body {
+  font-family: "Product Sans";
+}
+
+.top-nav .logo {
+  width: 50px;
+}
+
+.top-nav ul li a {
+  color: #707070;
+  font-size: 18px;
+}
+
+.top-nav ul li .nav-btn {
+  display: inline-block;
+  color: white;
+  background: linear-gradient(94.98deg, #ef3a2f 1.34%, #fa770d 104.22%);
+  border-radius: 38px;
+  padding: 5px 20px !important;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .top-nav ul li .nav-btn {
+    margin-left: 0px;
+  }
+}
+
+/* Banner */
+.banner {
+  margin-top: 100px;
+}
+.banner h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.banner p {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.banner a {
+  color: white;
+  background: linear-gradient(94.98deg, #ef3a2f 1.34%, #fa770d 104.22%);
+  border-radius: 38px;
+  padding: 5px 20px !important;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  width: 195px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* card1 */
+.card1 {
+  margin-top: 50px;
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+@media screen and (max-width: 450px) {
+  .card1 {
+    padding: 20px;
+  }
+}
+
+.card1 .card {
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+}
+
+.card1 .row .clm1 .card img {
+  width: 180px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.card1 .row .clm1 .card .p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #ef3a2f;
+  margin-left: 50px;
+}
+
+.card1 .row .clm1 .card p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #4d4d4d;
+  margin-left: 50px;
+  padding-bottom: 20px;
+}
+
+.card1 .row .clm1 .clm1-card2 img {
+  width: 100px;
+  height: auto;
+}
+
+.card1 .row .clm2 .card {
+  text-align: center;
+  padding: 251px 0px !important;
+}
+
+.card1 .row .clm2 img {
+  width: 160px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card1 .row .clm2 h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Card2 */
+.card2 h6 {
+  font-weight: 400;
+  font-size: 28px;
+  color: #ef3a2f;
+}
+
+.card2 h5 {
+  font-weight: 400;
+  font-size: 48px;
+  color: #2c2c2c;
+}
+
+/* sliider */
+.slider1 .left {
+  background-color: #f2f2f2;
+}
+
+.slider1 .left h3 {
+  font-size: 36px;
+  color: #1f1f1f;
+  font-weight: 700;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+.slider1 .left h6 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ef3a2f;
+  margin-left: 30px;
+}
+
+.slider1 .left p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #4d4d4d;
+  margin-left: 30px;
+  width: 80%;
+}
+
+.slider1 .left button {
+  color: white;
+  background: linear-gradient(94.98deg, #ef3a2f 1.34%, #fa770d 104.22%);
+  border-radius: 38px;
+  padding: 5px 20px !important;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  margin-bottom: 80px;
+}
+
+.slider1 .right img {
+  width: 400px;
+  height: auto;
+  position: relative;
+  margin-top: 90px;
+  margin-left: -100px;
+}
+
+@media screen and (max-width:991px) {
+  .slider1 .right img {
+    margin-left: 0px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
+}
+
+.slider1 ol li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ef3a2f;
+}
+
+.slider1 .carousel ol {
+  margin-bottom: -70px;
+}
+
+.slider1 button {
+  color: white;
+  background: linear-gradient(94.98deg, #ef3a2f 1.34%, #fa770d 104.22%);
+  border-radius: 38px;
+  padding: 5px 20px !important;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  margin-top: 100px;
+}
+
+/* Form */
+.form img {
+  width: 100%;
+  height: auto;
+}
+.form h3 {
+  font-weight: 400;
+  font-size: 48px;
+  color: #333333;
+}
+
+.form p {
+  font-weight: 400;
+  font-size: 28px;
+  color: #ef3a2f;
+}
+
+.form form input[type="text"] {
+  width: 400px;
+  height: 40px;
+  background: #f2f2f2;
+  border-radius: 36px;
+  border: #f2f2f2;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.form form input[type="email"] {
+  width: 400px;
+  height: 40px;
+  background: #f2f2f2;
+  border-radius: 36px;
+  border: #f2f2f2;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.form select {
+  width: 80px;
+  display: inline-flex;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 50px;
+  margin-right: 10px;
+  padding-left: 20px;
+}
+
+.form form input[type="tel"] {
+  width: 307px;
+  height: 40px;
+  background: #f2f2f2;
+  border-radius: 36px;
+  border: #f2f2f2;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.form form textarea {
+  width: 400px;
+  height: 200px;
+  background: #f2f2f2;
+  border-radius: 20px;
+  border: #f2f2f2;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.form button {
+  color: white;
+  background: linear-gradient(94.98deg, #ef3a2f 1.34%, #fa770d 104.22%);
+  border-radius: 38px;
+  padding: 5px 20px !important;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+}
+
+@media screen and (min-width:767px) and (max-width:991px){
+  .form .right {
+  margin-top: 0px !important;
+  }
+
+  .form  .right-content{
+    margin-top: 0px !important;
+  }
+
+  .form form textarea {
+    width: 400px;
+    height: 120px;
+  }
+
+  .form form input[type="tel"] {
+    width: 296px;
+  }
+  
+}
+
+@media screen and (min-width:431px) and (max-width:767px){
+  .form .right {
+  margin-top: 10px !important;
+  }
+}
+
+@media screen and  (max-width:431px){
+  .form .right {
+    margin-top: 10px !important;
+  }
+
+  .form form input[type="text"] {
+    width:100%;
+  }
+
+  .form form input[type="email"] {
+    width:100%;
+  }
+
+  .form form input[type="tel"] {
+    width: 70%;
+  }
+
+  .form select {
+    width: 25%;
+    font-size: 14px;
+  }
+
+  .form form textarea {
+    width: 100%;
+    height: 100px;
+  }
+}
+
+@media screen and  (max-width:310px){
+  .form form input[type="tel"] {
+    width: 60%;
+  }
+
+  .form select {
+    width: 20%;
+    font-size: 12px;
+  }
+}
+
+
+/* Footer */
+.footer {
+  background: #f7f7f7;
+  color: black;
+}
+
+.footer .row img{
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.footer .p {
+  font-weight: 700;
+  font-size: 28px;
+  color: #1a1a1a;
+}
+
+.footer h6{
+    font-weight: 700;
+    font-size: 14px;
+    color: #1a1a1a;
+  }
+
+  .footer .footer-content a{
+    font-size: 14px;
+  }
+
+
+  /* Validation */
+  .error{
+    color: yellowgreen;
+    font-size: 10px;
+    margin-right: 20px
+  }
